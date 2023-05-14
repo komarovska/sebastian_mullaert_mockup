@@ -1,0 +1,231 @@
+/* font-family: 'Montserrat',
+sans-serif;
+font-family: 'Quattrocento',
+serif;
+font-family: 'Quattrocento Sans',
+sans-serif; */
+
+body {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding: 0 60px;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  padding: 40px 0;
+}
+
+.nav_biography {
+  justify-content: end;
+}
+
+.nav_studio {
+  justify-content: end;
+  padding-right: 26px;
+}
+
+.nav_music {
+  padding-left: 26px;
+}
+
+.nav_contact {
+  justify-content: end;
+}
+
+section {
+  position: relative;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 100;
+  padding: 75px 0;
+  text-align: center;
+}
+
+.stage {
+  height: 100vh;
+  background-image: url(assets/background_green.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+}
+
+.caption_simplicity {
+  padding: 181px 0 0 135px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.caption_biography {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 740px;
+}
+
+.caption_name_container {
+  width: 100vw;
+  height: 24px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 230px;
+}
+
+.caption_name {
+  width: 110%;
+  position: absolute;
+  left: -25px;
+  z-index: 1;
+}
+
+.caption--green {
+  color: #71870E;
+}
+
+.caption--small {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portrait_main {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+}
+
+.about {
+  height: 100vh;
+  padding: 200px 65px 200px;
+}
+
+.about_heading_container {
+  position: relative;
+  padding: 76px 0 100px 145px;
+}
+
+.about_heading {
+  text-indent: 160px;
+  padding-right: 60px;
+}
+
+h3 {
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.caption_about {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.caption_performancer {
+  text-align: right;
+}
+
+.about_text_container {
+  padding: 0 335px;
+  line-height: 28px;
+}
+
+.text-ident {
+  padding-bottom: 24px;
+}
+
+.caption_unique {
+  text-align: right;
+  padding-top: 75px;
+}
+
+.philosophy {
+  padding: 200px 60px 60px 135px;
+}
+
+.philosophy-heading {
+  text-indent: 150px;
+}
+
+.philosophy-heading_container {
+  position: relative;
+}
+
+.philosophy-label {
+  position: absolute;
+  top: 12px;
+}
+
+.philosophy-inner-container {
+  display: flex;
+}
+
+.philosophy-text-container {
+  width: 50%;
+  padding-right: 96px;
+  padding-top: 80px;
+}
+
+.philosophy-images-container {
+  position: relative;
+}
+
+.philosophy-images-wrapper {
+  width: 50%;
+}
+
+.philosophy-description {
+  padding: 100px 0 50px 150px;
+}
+
+.image_forest {
+  width: 464px;
+  height: 634px;
+}
+
+.image_grass {
+  position: absolute;
+  bottom: 100px;
+  right: 40px;
+}
+
+.philosophy-quote {
+  padding: 50px 0 0 100px;
+}
+
+.philosophy-link-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  color: #CD9A3D;
+  align-items: center;
+}
+
+.philosophy-link {
+  color: #CD9A3D;
+  text-decoration: none;
+}
+
+.dash_wrapper {
+  width: 100px;
+  height: 16px;
+  object-fit: contain;
+}
